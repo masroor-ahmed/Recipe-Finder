@@ -16,7 +16,7 @@ Welcome to Recipe Finder, a simple web application that helps you discover new r
 
 - Scroll through the list of recipes displayed on the screen.
 - Click on a recipe card to view its details.
-# View Recipe Details:
+## View Recipe Details:
 
 - On the recipe details page, you'll find information such as ingredients, instructions, and cooking times.
 - Follow the instructions to prepare your chosen recipe.
