@@ -21,7 +21,7 @@ Welcome to Recipe Finder, a simple web application that helps you discover new r
 - On the recipe details page, you'll find information such as ingredients, instructions, and cooking times.
 - Follow the instructions to prepare your chosen recipe.
 
-#Installation
+# Installation
 
 To run Recipe Finder locally on your machine, follow these steps:
 - Clone the Repository:
