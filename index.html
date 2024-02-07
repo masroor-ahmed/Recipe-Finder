@@ -4,20 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipe Finder</title>
+    <!-- Use Material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Use Material design styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Animation library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Dish Detective</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <h1>Recipe Finder</h1>
+        <h1>Find any Recipe</h1>
         <div class="cen">
-            <label for="ingredientInput">Enter ingredients:</label>
-            <input type="text" id="ingredientInput" placeholder="e.g., chicken, broccoli, rice" required>
-            <button id="searchButton">Search</button>
+
+            <div class="search-bar z-depth-1">
+                <i class="material-icons">search</i>
+                <input type="text" id="ingredientInput" placeholder="e.g., chicken, broccoli, rice">
+                <button class="btn waves-effect waves-light" id="searchButton">Search
+                    <i class="material-icons right">send</i>
+                </button>
+            </div>
+
         </div>
         <div id="results"></div>
     </div>
+    <!-- Scripts -->
+
+    <footer class="page-footer teal lighten-2">
+        <div class="container">
+
+            <div class="row">
+                <div class="col s12">
+                    <h5 class="black-text">Dish Detective</h5>
+                    <p class="black-text text-lighten-4">
+                        Find amazing recipes with the ingredients you have at home! This app was developed by Masroor
+                        Ahmad.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-copyright teal darken-3">
+            <div class="container center-align">
+
+                <!-- Social media icons -->
+                <a class="black-text" href="#!"><i class="fab fa-facebook-f"></i></a>
+                <a class="black-text" href="#!"><i class="fab fa-twitter"></i></a>
+                <a class="black-text" href="#!"><i class="fab fa-google-plus-g"></i></a>
+                <a class="black-text" href="#!"><i class="fab fa-linkedin-in"></i></a>
+
+                <p class="cop"> © 2024 Copyright </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="script.js"></script>
 </body>
 
