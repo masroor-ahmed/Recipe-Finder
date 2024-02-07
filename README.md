@@ -20,3 +20,15 @@ Welcome to Recipe Finder, a simple web application that helps you discover new r
 
 - On the recipe details page, you'll find information such as ingredients, instructions, and cooking times.
 - Follow the instructions to prepare your chosen recipe.
+
+#Installation
+
+To run Recipe Finder locally on your machine, follow these steps:
+- Clone the Repository:
+  https://github.com/masroor-ahmed/Recipe-Finder.git
+
+- Navigate to the Project Directory:
+  cd recipe-finder
+- Open the Application:
+  Launch the `index.html` file in your preferred web browser. 
+  
