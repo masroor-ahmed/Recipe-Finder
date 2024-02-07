@@ -28,7 +28,7 @@ To run Recipe Finder locally on your machine, follow these steps:
   https://github.com/masroor-ahmed/Recipe-Finder.git
 
 - Navigate to the Project Directory:
-  cd recipe-finder
+  `cd recipe-finder`
 - Open the Application:
   Launch the `index.html` file in your preferred web browser. 
   
