@@ -32,7 +32,7 @@ function displayResults(recipes) {
         const recipeDiv = document.createElement('div');
         recipeDiv.classList.add('recipe');
         recipeDiv.innerHTML = `
-            <h2>${label}</h2>
+            <h5>${label}</h5>
             <img src="${image}" alt="${label}">
             <a href="${url}" target="_blank">View Recipe</a>
         `;
