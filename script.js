@@ -2,10 +2,18 @@ const searchButton = document.getElementById('searchButton');
 const ingredientInput = document.getElementById('ingredientInput');
 const resultsDiv = document.getElementById('results');
 
+
+
 const appId = '0bf62e91';
 const appKey = '7fd7e97dd7e9c63ff025fb210a004e80';
 
 searchButton.addEventListener('click', () => {
+
+    if (ingredientInput.value == "") {
+        alert("Kuch tw likh")
+    }
+
+
     const query = ingredientInput.value.trim();
     if (query !== '') {
         fetch(`https://api.edamam.com/search?q=${query}&app_id=${appId}&app_key=${appKey}`)
