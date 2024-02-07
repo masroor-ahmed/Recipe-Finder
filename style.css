@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    padding: 20px;
+    align-items: center !important;
+}
+
+h1 {
+    text-align: center;
+   
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    /* Adjust input field styling */
+    width: calc(100% - 90px);
+    /* Adjust width to accommodate label and button */
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.recipe {
+    width: 80%;
+    /* Adjust styling for recipe cards */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+@media screen and (min-width: 445px) {
+    .recipe {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .recipe {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .recipe {
+        width: 25%;
+    }
+
+    .container {
+        max-width: 1200px;
+    }
+}
+
+.recipe img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#results {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#results img {
+    margin-bottom: 40px;
+}
+
+a {
+    /* Adjust link styling */
+    display: block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
